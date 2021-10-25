@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CFM Visualizer</title>
+    <title>Cash Flow Minimizer</title>
     <link rel="icon" href="money-bill-wave-solid.svg" type="image/icon type">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <script src="https://kit.fontawesome.com/5548f5ed00.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -17,19 +15,15 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark "
-        style="font-size: 25px; font-family: sans-serif; background-color: whitesmoke; color: white;">
-
-
-        Bank Transaction Minimization Visualizer
-        <small>by Tasfik</small>
-
+    <nav class="navbar navbar-dark bg-dark" style="font-size: 25px; font-family: sans-serif; background-color: rgb(0, 60, 255); color: whitesmoke;">
+        Cash Flow Minimization Algorithm Visualizer 
+        <small>by Saharsh Anand(IIT Ropar)</small>
     </nav>
     <div id="container">
         <div id="mynetwork"></div>
         <div id="container2">
-            <span id="temptext" style="width: 100%; text-align: center; font-size: x-large">
-                <h4>Click 'Minimize Transactions Button' to minimize transactions</h4>
+            <span id="temptext" style="width: 100%; text-align: center; font-size: x-large ;">
+            <h4>Click 'Minimize Transactions Button' to minimize transactions</h4>
             </span>
             <div id="mynetwork2" style="display: none"></div>
         </div>
@@ -42,5 +36,4 @@
         <button type="button" class="btn btn-success my-btn" id="solve">Minimize Transactions</button>
     </div>
 </body>
-
 </html>
